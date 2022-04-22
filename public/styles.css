@@ -103,7 +103,6 @@ hr{
     background-position:center;
     background-size:cover;
     height:fit-content;
-    background-attachment:fixed;
 }
 .services h2{
     color:#fff;
@@ -273,10 +272,9 @@ hr{
     margin:20px 0;
 }
 .testimonials{
-    background:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)) ,url('./images/Hexagon.svg');
+    background:linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.75)) ,url('./images/Hexagon.svg');
     background-size:cover;
     background-position:center;
-    background-attachment:fixed; 
 }
 .testimonials h2{
     text-align:center;
