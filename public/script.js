@@ -18,5 +18,12 @@ serviceCardButtons.forEach((button)=>{
 })
 
 const serviceCardPreview = ()=>{
-    var parent = event.currentTarget
+    var parent = event.currentTarget.parentNode.parentNode;
+    var allCards = document.querySelectorAll('.course_details_all');
+    allCards.forEach((card)=>{
+        card.classList.remove('show_info')
+    })
+    var targetShow = parent.querySelector('.course_details_all');
+    targetShow.classList.add('show_info')
+
 }
